@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(https://i.pinimg.com/564x/77/15/ab/7715ab4728f6c07f5a5e2be7872d3d82.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffffc7;
+    border: 10px white solid;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.numbers {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dollars {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.first, .second, .third {
+    margin: 20px;
+}
+
+.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    margin-top: 2px;
+}
+
+.fstbtn, .scndbtn, .thrdbtn {
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.fstbtn {
+background-color: plum;
+}
+
+.scndbtn {
+    background-color: aqua;
+}
+
+.thrdbtn {
+    background-color: bisque;
+}
